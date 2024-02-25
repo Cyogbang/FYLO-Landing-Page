@@ -8,15 +8,14 @@ body {
     background: white;
     background-image: url(./images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 500rem;
+    background-size: 800rem;
     background-position:bottom;
     max-width: 1440px;
 }
 
 .top {
     display: flex;
-    margin-top: 3rem;
-    margin-left: 3rem;
+    padding: 3rem;
 }
 
 .nav_bar {
@@ -55,7 +54,7 @@ body {
 .testimonial {
     display: flex;
     margin-left: 3rem;
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 
 .testimonial_info {
@@ -79,6 +78,7 @@ body {
     background: blue;
     border-color: blue;
     color: white;
+    max-width: 12rem;
 }
 
 .quote {
@@ -94,4 +94,39 @@ body {
 #avatar {
     width: 2rem;
     border-radius: 2rem;
+}
+
+.support {
+    display: flex;
+    background: lightskyblue;
+    padding: 4rem 4rem 4rem 3rem;
+}
+
+.support_text {
+    width: 30rem;
+}
+
+#mail_2 {
+    margin-bottom: 1rem;
+    padding: 0.5rem 10rem 0.5rem 0.5rem;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 20rem;
+}
+
+#button_2 {
+    margin-left: 0rem;
+}
+
+footer {
+    background: navy;
+    padding: 5rem 10rem 3rem 3rem;
+}
+
+.foot_sec_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
 }
