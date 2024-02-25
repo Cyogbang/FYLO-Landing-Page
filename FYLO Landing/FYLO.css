@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 500rem;
+    background-position:bottom;
+    max-width: 1440px;
+}
+
+.top {
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.nav_bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-left: 50rem;
+}
+
+.navs {
+    text-align: center;
+    padding: 1rem;
+}
+
+.reg_section {
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+.reg_details {
+    width: 30rem;
+    padding-top: 5rem;
+}
+
+.illustration {
+    width: 28rem;
+    height: 24rem;
+    margin-left: 19rem;
+}
+
+#ill_2 {
+    padding-right: 3rem;
+}
+
+.testimonial {
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 15rem;
+}
+
+.testimonial_info {
+    width: 30rem;
+}
+
+.headings {
+    width: 35rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#mail {
+    margin-top: 1rem;
+    padding: 0.5rem 3rem 0.5rem 0.5rem;
+}
+
+.buttons {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin-left: 1rem;
+    background: blue;
+    border-color: blue;
+    color: white;
+}
+
+.quote {
+    background: white;
+    border-radius: 0.5rem;
+    width: 20rem;
+}
+
+.client {
+    display: flex;
+}
+
+#avatar {
+    width: 2rem;
+    border-radius: 2rem;
+}
