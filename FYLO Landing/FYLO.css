@@ -199,9 +199,11 @@ footer {
     body {
         background-image: url(./images/bg-curve-mobile.svg);
         background-repeat: no-repeat;
-        background-size: 400rem;
+        background-size: 300rem;
         background-position:bottom;
         max-width: 375px;
+        text-align: center;
+        margin: auto;
     }
     
     .top {
@@ -209,12 +211,110 @@ footer {
     }
 
     .nav_bar {
-        margin-left: 10rem;
+        margin-left: 1rem;
+    }
+
+    .navs {
+        width: 3rem;
+        font-size: 0.8rem;
+        padding: 0rem;
+        text-align: left;
     }
 
     .reg_section {
         display: grid;
         grid-template-columns: 1fr;
-        margin-left: 3rem;
+        margin-left: 1rem;
+        /* margin-left: 0.5rem; */
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .logo {
+        width: 7rem;
+        height: 3rem;
+    }
+
+    .logo_1 {
+        margin-left: 1rem;
+    }
+
+    .reg_details {
+        width: 20rem;
+        padding-top: 5rem;
+    }
+
+    .headings {
+        width: 20rem;
+    }
+
+    .illustration {
+        width: 18rem;
+        height: 14rem;
+        margin-left: 1rem;
+    }
+    
+    .testimonial {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 1rem;
+    }
+
+    .testimonial_info {
+        width: 20rem;
+    }
+
+    #mail {
+        width: 100%;
+    }
+    
+    .buttons {
+        /* margin-left: 1rem; */
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .quote {
+        margin: auto;
+    }
+
+    .support {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .support_text {
+        width: 20rem;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem;
+    }
+    
+    .inputs {
+        margin-left: 0.1rem;
+    }
+
+    footer {
+        padding-left: 1rem;
+    }
+
+    .contact_info {
+        margin-top: 1rem;
+        text-align: left;
+    }
+    
+    .foot_sec_2 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .list {
+        padding-left: 1rem;
+        text-align: left;
+        padding-top: 2rem;
+    }
+
+    .socials {
+        margin-left: 6rem;
+        margin-top: 1rem;
     }
 }
