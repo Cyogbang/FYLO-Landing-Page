@@ -12,6 +12,11 @@ body {
     background-position:bottom;
     max-width: 1440px;
     line-height: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-size: 16px;
 }
 
 .top {
@@ -29,6 +34,9 @@ body {
 .navs {
     text-align: center;
     padding: 1rem;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 .reg_section {
@@ -72,6 +80,7 @@ body {
 
 #link {
     color: hsl(170, 45%, 43%);
+    font-family: "Raleway", sans-serif;
 }
 
 #arrow {
@@ -84,6 +93,7 @@ body {
     width: 35rem;
     line-height: 2.5rem;
     margin-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
 }
 
 #mail {
@@ -99,12 +109,13 @@ body {
     border-color: hsl(224, 93%, 58%);
     color: white;
     max-width: 12rem;
+    font-family: "Raleway", sans-serif;
 }
 
 .quote {
     background: white;
     border-radius: 0.5rem;
-    width: 18rem;
+    width: 20rem;
     padding: 0.7rem;
     margin-top: 1rem;
     font-size: 0.8rem;
@@ -199,7 +210,7 @@ footer {
     body {
         background-image: url(./images/bg-curve-mobile.svg);
         background-repeat: no-repeat;
-        background-size: 300rem;
+        background-size: 800rem;
         background-position:bottom;
         max-width: 375px;
         text-align: center;
@@ -211,7 +222,7 @@ footer {
     }
 
     .nav_bar {
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
 
     .navs {
@@ -281,12 +292,13 @@ footer {
     .support {
         display: grid;
         grid-template-columns: 1fr;
+        padding-left: 1rem;
     }
 
     .support_text {
         width: 20rem;
-        padding-left: 0.5rem;
-        margin-left: 0.5rem;
+        /* padding-left: 0.5rem;
+        margin-left: 0.5rem; */
     }
     
     .inputs {
