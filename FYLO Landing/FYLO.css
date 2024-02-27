@@ -5,7 +5,7 @@
 }
 
 body {
-    background: hsl(0, 0%, 75%);
+    background: white;
     background-image: url(./images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
     background-size: 800rem;
@@ -263,6 +263,7 @@ footer {
         width: 18rem;
         height: 14rem;
         margin-left: 1rem;
+        margin-top: 2rem;
     }
     
     .testimonial {
